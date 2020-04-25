@@ -70,6 +70,18 @@
     <Compile Include="Migrations\202004251146572_AddCategoriesColumnInCourseTable.designer.cs">
       <DependentUpon>202004251146572_AddCategoriesColumnInCourseTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004251153171_AddDatePublishedColumnToCiurseTable.cs" />
+    <Compile Include="Migrations\202004251153171_AddDatePublishedColumnToCiurseTable.designer.cs">
+      <DependentUpon>202004251153171_AddDatePublishedColumnToCiurseTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004251155447_UpdateTitleColumnNameToNameInCourseTable.cs" />
+    <Compile Include="Migrations\202004251155447_UpdateTitleColumnNameToNameInCourseTable.designer.cs">
+      <DependentUpon>202004251155447_UpdateTitleColumnNameToNameInCourseTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004251201171_DeleteDatePublishedColumnFromCourseTable.cs" />
+    <Compile Include="Migrations\202004251201171_DeleteDatePublishedColumnFromCourseTable.designer.cs">
+      <DependentUpon>202004251201171_DeleteDatePublishedColumnFromCourseTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
     <Compile Include="Program.cs" />
@@ -89,6 +101,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004251146572_AddCategoriesColumnInCourseTable.resx">
       <DependentUpon>202004251146572_AddCategoriesColumnInCourseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004251153171_AddDatePublishedColumnToCiurseTable.resx">
+      <DependentUpon>202004251153171_AddDatePublishedColumnToCiurseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004251155447_UpdateTitleColumnNameToNameInCourseTable.resx">
+      <DependentUpon>202004251155447_UpdateTitleColumnNameToNameInCourseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004251201171_DeleteDatePublishedColumnFromCourseTable.resx">
+      <DependentUpon>202004251201171_DeleteDatePublishedColumnFromCourseTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
